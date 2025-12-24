@@ -4,11 +4,11 @@
 **Organization:** Healthcare Pharmaceuticals Ltd.  
 **Duration:** July 2025 – Present  
 
-This document provides a detailed overview of my QA internship experience, demonstrating the scope of work, responsibilities, processes followed, and cross-team collaboration. All work described is presented in a professional, high-level manner.
+This document provides a detailed overview of my QA internship experience, demonstrating the scope of work, responsibilities, processes followed, and cross-team collaboration.
 
 ---
 
-## 1. Mobile Application Testing (HPL Android App)
+## 1. Mobile Application Testing (HPL Android App - SalesPulse, Cornea)
 
 **Scope:** Functional and usability testing of HPL’s Android enterprise application for internal and field operations.
 
@@ -113,7 +113,8 @@ This document provides a detailed overview of my QA internship experience, demon
 
 **Outcome:**  
 - Successfully launched a public-facing, fully responsive corporate website.  
-- Repository or demo can be shared publicly on GitHub.
+- Website link: [HCLAPI Corporate Website](https://www.hclapibd.com)
+
 
 ---
 
@@ -145,6 +146,26 @@ This document provides a detailed overview of my QA internship experience, demon
 
 ---
 
-## 7. Summary
+## 7. Support & Field Operations
+
+**Scope:** Supporting end-users, training field teams(ZM, AM/RM, MIO/SMIO), and assisting with sales and marketing software after new feature releases.
+
+**Responsibilities & Work Performed:**
+
+- **Field Training Sessions:**  
+  - Arranged and conducted **training sessions for field force employees (Divisional Heads, Zonal Heads, Regional Heads, MIOs)** whenever a new feature or update was released in internal apps.  
+  - Prepared training materials, step-by-step guides, and demonstrations for smooth adoption of new features.  
+
+- **Sales & Marketing Software Support:**  
+  - Assisted users in **sales and marketing software**, resolving common issues and clarifying operational workflows.  
+  - Documented recurring user queries and prepared FAQs to improve efficiency and reduce repeated support requests.  
+
+- **Collaboration & Communication:**  
+  - Coordinated with **training team, development team, and field representatives** to schedule sessions and ensure issue resolution.  
+  - Provided feedback from field teams to developers for future enhancements.  
+
+---
+
+## 8. Summary
 
 During my internship, I gained **hands-on experience across mobile apps, web platforms, HRMS internal systems, dashboards, and corporate website development**. I participated in **end-to-end QA processes**, created comprehensive **documentation**, reported and tracked defects, and collaborated with **multiple teams** using **Agile methodology**. This experience formed the foundation for my practical QA skills, which are further demonstrated through the sample projects in this portfolio.
