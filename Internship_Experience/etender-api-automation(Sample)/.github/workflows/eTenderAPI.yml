@@ -1,0 +1,68 @@
+name: Run eTender Sample API Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/*'  # Prevents automatic run on any push
+
+jobs:
+  newman-sample-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Enable debug logs
+      - name: Enable GitHub Actions Debug Logging
+        run: |
+          echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
+          echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
+
+      # Checkout repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Install Newman globally
+      - name: Install Newman
+        run: |
+          echo "Installing Newman..."
+          npm install -g newman
+          newman --version
+
+      # Create folder for results
+      - name: Create results folder
+        run: |
+          mkdir -p results
+
+      # Run eTender Sample Collection
+      - name: Run eTender Sample Collection
+        run: |
+          echo "Running eTender Sample API Collection..."
+          # Safe for portfolio: won't fail if APIs are unreachable
+          newman run Collections/eTender-API-v1.postman_collection.json \
+            -e environments/QA.postman_environment.json \
+            --reporters cli,junit \
+            --reporter-junit-export results/newman-results.xml || true
+
+      # Verify Newman report
+      - name: Verify Newman Report
+        run: |
+          echo "Listing results folder..."
+          ls -la results
+          if [ ! -f results/newman-results.xml ]; then
+            echo "NOTE: Newman JUnit report not found (safe for portfolio)"
+          fi
+
+      # Upload the results as an artifact
+      - name: Upload JUnit Test Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: newman-results
+          path: results/newman-results.xml
