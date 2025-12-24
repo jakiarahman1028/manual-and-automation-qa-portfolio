@@ -1,18 +1,6 @@
 # Manual and Automation QA Portfolio
 
-This repository showcases my manual and basic automation QA skills through sample projects and hands-on experience gained during my QA internship.
-
----
-
-## About Me
-
-Hi! I'm **Jakia Rahman**, a Software Quality Assurance (SQA) Intern with experience in manual testing, test case design, bug reporting, and basic automation. I have worked on Android and web applications, dashboards, and enterprise software. This portfolio demonstrates my approach to QA through structured sample projects and high-level internship experience.
-
-- **Location:** Dhaka, Bangladesh  
-- **Email:** jakiarahman326@gmail.com  
-- **Phone:** +8801768997799  
-- **GitHub:** https://github.com/jakiarahman1028/manual-and-automation-qa-portfolio 
-- **LinkedIn:** https://www.linkedin.com/in/jakia-rahman-648b271b7/
+This repository showcases my experience as a **Software Quality Assurance (SQA) Intern**, highlighting manual and basic automation testing skills through real-world projects during my internship. It demonstrates my approach to QA, including test planning, test case design, bug reporting, and basic automation, across Android and web applications, dashboards, and enterprise software.
 
 ---
 
@@ -21,62 +9,55 @@ Hi! I'm **Jakia Rahman**, a Software Quality Assurance (SQA) Intern with experie
 - Manual Testing (Android & Web)  
 - Test Planning & Documentation  
 - Test Case Design & Execution  
-- Bug Reporting & Tracking (Jira)  
+- Bug Reporting & Tracking (Jira, ClickUp)  
 - Agile/Scrum Participation  
-- Basic API Testing (Postman)  
+- API Testing (Postman)  
 - Basic Automation Testing (Playwright, Cypress)  
 - UI/UX Testing and Validation  
-- Collaboration & Documentation (Google Workspace, Excel)
+- Collaboration & Documentation (Google Workspace)
 
 ---
 
-## Internship Experience
+## Internship Experience Highlights
 
-Detailed high-level descriptions of my QA internship experience can be found in the **`Internship_Experience/HPL_SQA_Internship.md`** file.
+During my internship, I contributed to multiple projects, performing:  
 
-**Highlights include:**  
 - Manual testing of Android apps and web applications  
-- End-to-end functional, regression, smoke, and usability testing  
-- Test planning, test case execution, and bug reporting  
+- Functional, regression, smoke, and usability testing  
+- Test planning, test case execution, and defect reporting  
 - Dashboard and report validation  
 - Participation in Agile/Scrum sprints, requirement analysis, and cross-team collaboration  
 
+Full details of my internship experience are in **`Internship_Experience/HPL_SQA_Internship.md`**.
+
 ---
 
-## Sample Projects
+## Internship Projects
 
-This portfolio contains **sample projects** that demonstrate my QA workflow, documentation, and approach. These projects use **dummy data** and are designed to showcase skills learned during my internship.
+These projects demonstrate my QA workflow, documentation, and approach using real internship projects:
 
-| Project / Folder | Description |
-|-----------------|-------------|
-| `01_Test_Plan/` | Sample test plans outlining testing strategy for a demo application |
-| `02_Test_Scenarios/` | Test scenarios for web and mobile workflows |
-| `03_Test_Cases/` | Detailed manual test cases for functional and UI testing |
-| `04_Bug_Reports/` | Sample bug reports showing defect reporting and tracking |
-| `05_API_Testing/` | Example Postman collection and API testing notes |
-| `06_Agile_Documentation/` | User stories, sprint backlog, and acceptance criteria examples |
-| `07_Automation_Basics/` | Basic Playwright/Cypress automation scripts |
-| `08_UI_UX_Testing/` | UI/UX checklist and sample validation notes |
-| `09_Test_Metrics/` | Test metrics reports for demo projects |
-| `10_Sample_Project_Overview/` | Overview of demo applications tested in this portfolio |
+| Project | Description |
+|---------|-------------|
+| **SalesPulse Android App** | End-to-end testing of Android workflows, functional validation, and UI/UX checks |
+| **HRMS (Employee & Payroll Modules)** | Manual testing of web modules, bug reporting, and process validation |
+| **eTender** | Testing web-based tendering workflows, dashboard validation, and basic automation scripts |
+| **PowerBI Dashboard & Reports Validation** | Verification of reports, data accuracy, and UI consistency across dashboards |
+| **API Testing Projects** | Postman collections and API testing notes for internal applications |
 
 ---
 
 ## How to Use This Repository
 
-- Explore **folders 1–10** to see examples of QA documentation, test cases, bug reports, and sample automation scripts.  
-- The content demonstrates **QA skills and process knowledge**, using structured examples.  
-- All projects use **dummy data** and are safe to view, download, or fork.
+- Explore the projects to see examples of QA documentation, test cases, bug reports, and automation scripts.  
+- The content demonstrates **practical QA skills and process knowledge** from real internship projects.  
+- All data is safe and illustrative of QA workflows; no sensitive information is included.
 
 ---
 
 ## Contact
 
-Feel free to reach out if you want to discuss my QA experience or projects:
+Feel free to reach out to discuss my QA experience or projects:
 
 - **Email:** jakiarahman326@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/jakia-rahman-648b271b7/
+- **LinkedIn:** [Check Linkedin Profile](https://www.linkedin.com/in/jakia-rahman-648b271b7/)
 - **Phone:** +8801768997799
-
----
-
